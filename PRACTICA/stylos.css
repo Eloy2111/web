@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #911616;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+.perfil,
+.educacion,
+.habilidades {
+    margin-bottom: 30px;
+}
+
+.perfil h2,
+.educacion h2,
+.habilidades h2 {
+    color: #333;
+}
+
+.footer {
+    text-align: center;
+    background-color: #2c1a92;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 10px 0;
+}
+
+.habilidades ul,
+.educacion ul,
+.perfil ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.habilidades li::before,
+.educacion li::before,
+.perfil li::before {
+    content: "\2021"; 
+    margin-right: 5px; 
+}
+
+.habilidades li {
+    margin-bottom: 10px;
+}
+
+.educacion li {
+    margin-bottom: 5px;
+}
+
+.perfil li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #2a9d8f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
